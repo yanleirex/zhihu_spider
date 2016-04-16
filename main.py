@@ -6,8 +6,8 @@ from parse_zhihu import parse_main_page
 from parse_follow import parse_followees
 
 def test_login():
-    user = "yanleirex@163.com"
-    psd = "yan19900622lei"
+    user = ""
+    psd = ""
     return login(username=user, password=psd)
 
 
